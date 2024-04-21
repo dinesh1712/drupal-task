@@ -1,0 +1,7 @@
+name: "Drupal Task"
+type: module
+description: "Provides a custom REST resource to fetch node content along with its referenced paragraphs."
+core_version_requirement: ^9 || ^10
+package: "Custom"
+dependencies:
+  - drupal:rest
